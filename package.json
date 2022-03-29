@@ -1,13 +1,15 @@
 {
   "name": "simplefolio",
   "version": "1.0.1",
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
+  "homepage": "https://sramadan7.github.io/ProfessionalPortfolio/",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
