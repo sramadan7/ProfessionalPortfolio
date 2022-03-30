@@ -28,7 +28,7 @@
       height: 100%;
       align-items: center;
       justify-content: center;
-      border-radius: 50%;
+      borderRadius: 1000;
 
       @include respond(tab-land) {
         height: 100%;
