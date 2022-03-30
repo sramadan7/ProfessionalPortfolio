@@ -1,7 +1,7 @@
 {
   "name": "simplefolio",
   "version": "1.0.1",
-  "homepage": "https://sramadan7.github.io/ProfessionalPortfolio/",
+  "homepage": "https://sramadan7.github.io/professionalportfolio/",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
@@ -9,7 +9,7 @@
     "start": "parcel",
     "build": "parcel build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "repository": {
     "type": "git",
