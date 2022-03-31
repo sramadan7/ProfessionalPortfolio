@@ -41,7 +41,7 @@
 export default class App extends Component {
   render() {
     return (
-      <div style={{ display: "flex" }}>
+      <div style={ display: "flex" }>
         <ReactRoundedImage image={MyPhoto} />
         <ReactRoundedImage
           image={MyPhoto}
